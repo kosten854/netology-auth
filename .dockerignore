@@ -1,0 +1,10 @@
+**/node_modules
+**/npm-debug.log
+**/dist
+**/.git
+**/.cache
+**/*.env
+**/*.vscode
+**/.DS_Store
+**/*.log
+**/*.sql

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  netology_app:
+    env_file:
+      - .demo.env
+    container_name: netology_app
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../docker/db:/db
